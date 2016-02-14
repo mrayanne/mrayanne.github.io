@@ -1,0 +1,261 @@
+/*importar fontes*/
+@font-face {
+  font-family: lanenar;
+  src: url('../fonts/LAdNENAR_.ttf');
+}
+@font-face {
+  font-family: helvetica;
+  src: url('../fonts/helvetica/ultra.ttf');
+}
+@font-face {
+  font-family: robotoFina;
+  src: url('../fonts/roboto/Roboto-Thin.ttf');
+}
+@font-face {
+  font-family: robotoLight;
+  src: url('../fonts/roboto/Roboto-Light.ttf');
+}
+
+@font-face {
+  font-family: robotoMedia;
+  src: url('../fonts/roboto/Roboto-Medium.ttf');
+}
+
+@font-face {
+  font-family: caviarBold;
+  src: url('../fonts/caviar/caviarBold.ttf');
+}
+@font-face {
+  font-family: Canon;
+  src: url('../fonts/Canon/FeFCrm2.ttf');
+}
+@font-face {
+  font-family: folioItalico;
+  src: url('../fonts/folioItalico.ttf');
+}
+@font-face {
+  font-family: folioNegrito;
+  src: url('../fonts/folioNegrito.ttf');
+}
+@font-face {
+  font-family: folioNormal;
+  src: url('../fonts/folioNormal.ttf');
+}
+@font-face {
+  font-family: montserratRegular;
+  src: url('../fonts/montserrat/Montserrat-Regular.otf');
+}
+@font-face {
+  font-family: montserratBold;
+  src: url('../fonts/montserrat/Montserrat-Bold.otf');
+}
+@font-face {
+  font-family: montserratLigth;
+  src: url('../fonts/montserrat/Montserrat-Light.otf');
+}
+/*final importar fontes*/
+*{
+	font-family: Verdana, Geneva, sans-serif;
+}
+#boxProdutos{
+	/*margin-left: 100px;
+	margin-right: 100px;*/
+	margin-bottom: 100px;
+}
+#cabecalhio{
+	/*margin-left: 100px;
+	margin-right: 100px;*/
+	margin-top: 20px;
+}
+#carrinho{
+	/*margin-left: 100px;
+	margin-right: 100px;*/
+}
+.imgProduto{
+	margin-bottom: 35px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.nomeProduto{
+	text-align: center;
+	font-size: 12px;	
+}
+.butao{
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 140px;
+	height: 35px;
+	background-color: #333;
+	margin-top: 20px;
+}
+.butao:hover{
+	background-color: rgba(51, 51, 51, 0.8);
+	
+}
+.textoButao{
+	padding-left: 12px;
+	color: #fff;	
+	font-size: 12px;
+	text-align: center;
+}
+.textoButao2{
+	padding-left: 12px;
+	color: #333;	
+	font-size: 12px;
+	text-align: center;
+}
+.textoButao2:hover{
+	color: #999;
+}
+
+
+.caixaProdutos{
+	
+}
+.produtosTeste{
+	margin-top: 50px;
+}
+#menu{
+	border-bottom: 1px solid #cccccc;
+	margin-left: 50px;
+	margin-right: 50px;
+	
+}
+#marca{
+	font-size: 40px;
+	text-align: center;
+	font-family: robotoLight;
+}
+.titleTextDescri1{
+	font-family: folioNegrito;
+	font-size: 20px;
+	padding-top: 25px;
+}
+.titleTextDescri{
+	font-family: folioNegrito;
+	padding-top: 25px;
+}
+#imaginary_container{
+   
+}
+.topSpace{
+	padding-top: 20px;
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+#boxQuant{
+	width: 70px;
+}
+.titleCar{
+	font-family: folioNegrito;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+#boxTitleCar{
+	border-bottom: 1px solid #cccccc;
+}
+#boxTitleCar2{
+	border-top: 1px solid #cccccc;
+	margin-top: 30px;
+}
+#boxTitleCar3{
+	border-top: 1px solid #cccccc;
+	
+}
+.xx{
+	background-color: #EDEDED;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+.xxx{
+	text-align: center;
+}
+.xxx1{
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.xxx2{
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.imgItem{
+	width: 100px;
+	height: 130px;
+	margin-right: 10px;
+}
+.xxxx{
+	float: left;
+
+}
+.tituloItem{
+	text-decoration: none;
+	font-size: 20px;
+}
+.y{
+	 margin-bottom: 40px;
+}
+.excluir{
+	margin-top: 46px;
+}
+.butaoEstimativa{
+	
+	padding-top: 7px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	width: 140px;
+	height: 35px;
+	background-color: #fff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 2px solid #333;
+}
+.butaoEstimativa:hover{
+	border: 2px solid #999;
+	
+}
+.butaoOut{
+	
+	padding-top: 7px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	width: 140px;
+	height: 35px;
+	background-color: #333;
+	margin-top: 20px;
+	margin-bottom: 150px;
+}
+.butaoOut:hover{
+	background-color: rgba(51, 51, 51, 0.8);
+	
+}
+.butaoOut2{	
+	padding-top: 7px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	width: 140px;
+	height: 35px;
+	background-color: #333;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.butaoOut2:hover{
+	background-color: rgba(51, 51, 51, 0.8);
+	
+}
+.alinhar{
+	text-align: center;
+}
